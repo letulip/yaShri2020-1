@@ -123,6 +123,9 @@ html * {
   -webkit-margin-after: var(--space-xxxxl);
           margin-block-end: var(--space-xxxxl); }
 
+.grid_m-columns {
+  --columns-count: 12; }
+
 @media (min-width: 1024px) {
     .theme {
       -webkit-box-orient: horizontal;
@@ -132,6 +135,8 @@ html * {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
     .theme_gap_small {
-      --gap: var(--space-xl); } }
+      --gap: var(--space-xl); }
+    .grid_m-columns {
+      --columns-count: 12; } }
 
 /*# sourceMappingURL=style.css.map */
