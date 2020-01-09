@@ -114,7 +114,7 @@ const serve = () => {
     ui: false
   });
 
-  watch(['src/blocks/**/*.scss', 'src/scss/**/*.scss', 'src/scss/style.scss'], style);
+  watch(['src/blocks/**/*.scss', 'src/scss/**/*.scss', 'src/scss/style.scss'], style).on('change', server.reload);
   watch('src/*.html', copyHtml);
   watch(['src/js/**/*.js', 'src/blocks/**/*.js'], jsWatch);
 
