@@ -1,0 +1,1 @@
+{"version":3,"sources":["general.scss","variables.scss"],"names":[],"mappings":"AAAA;EACE,4BCDqB,EAAA","file":"style.css","sourcesContent":["body {\n  background-color: $main-color;\n}","$main-color: aquamarine;"]}
