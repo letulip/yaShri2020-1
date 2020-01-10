@@ -4,9 +4,9 @@
 // theme block imports
 @import "../blocks/theme/theme.scss";
 @import "../blocks/theme/_color/theme_color_project-default.scss";
-// @import "../blocks/theme/_color/theme_color_project-brand.scss";
-// @import "../blocks/theme/_color/theme_color_project-inverse.scss";
-// @import "../blocks/theme/_color/theme_color_project-warning.scss";
+@import "../blocks/theme/_color/theme_color_project-brand.scss";
+@import "../blocks/theme/_color/theme_color_project-inverse.scss";
+@import "../blocks/theme/_color/theme_color_project-warning.scss";
 @import "../blocks/theme/_size/theme_size_default.scss";
 @import "../blocks/theme/_space/theme_space_default.scss";
 @import "../blocks/theme/_gap/theme_gap_small.scss";

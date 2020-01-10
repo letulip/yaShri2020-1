@@ -1,12 +1,18 @@
-$default-block-color: #000000;
-$accent-block-color: #ffffff;
-$border-block-color: #ffffff;
+$inverse-block-color: #000000;
+$inverse-accent-block-color: #ffffff;
+$inverse-border-color: #ffffff;
 
-$main-text-color: #ffffff;
-$second-text-color: rgba(255, 255, 255, 0.6);
-$additional-text-color: rgba(255, 255, 255, 0.3);
-$link-color: #0077ff;
+$inverse-main-text-color: #ffffff;
+$inverse-second-text-color: rgba(255, 255, 255, 0.6);
+$inverse-additional-text-color: rgba(255, 255, 255, 0.3);
+$inverse-link-color: #0077ff;
 
 .theme_color_project-inverse {
-  
+  --default-block-color: #{$inverse-block-color};
+  --accent-block-color: #{$inverse-accent-block-color};
+  --default-border-color: #{$inverse-border-color};
+  --main-text-color: #{$inverse-main-text-color};
+  --second-text-color: #{$inverse-second-text-color};
+  --additional-text-color: #{$inverse-additional-text-color};
+  --link-color: #{$inverse-link-color};
 }

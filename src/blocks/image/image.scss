@@ -1,6 +1,6 @@
 .image {
   width: 100%;
-  border: 3px solid $default-border-color;
-  background-color: $default-block-color;
-  fill: $default-border-color;
+  border: 3px solid var(--default-border-color);
+  background-color: var(--default-block-color);
+  fill: var(--default-border-color);
 }

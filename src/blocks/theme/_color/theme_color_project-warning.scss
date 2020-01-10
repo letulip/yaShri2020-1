@@ -1,12 +1,18 @@
-$default-block-color: #ff3333;
-$accent-block-color: #ffffff;
-$border-block-color: #ff3333;
+$warning-block-color: #ff3333;
+$warning-accent-block-color: #ffffff;
+$warning-border-color: #ff3333;
 
-$main-text-color: #ffffff;
-$second-text-color: rgba(255, 255, 255, 0.6);
-$additional-text-color: rgba(255, 255, 255, 0.3);
-$link-color: #ffffff;
+$warning-main-text-color: #ffffff;
+$warning-second-text-color: rgba(255, 255, 255, 0.6);
+$warning-additional-text-color: rgba(255, 255, 255, 0.3);
+$warning-link-color: #ffffff;
 
 .theme_color_project-warning {
-  
+  --default-block-color: #{$warning-block-color};
+  --accent-block-color: #{$warning-accent-block-color};
+  --default-border-color: #{$warning-border-color};
+  --main-text-color: #{$warning-main-text-color};
+  --second-text-color: #{$warning-second-text-color};
+  --additional-text-color: #{$warning-additional-text-color};
+  --link-color: #{$warning-link-color};
 }

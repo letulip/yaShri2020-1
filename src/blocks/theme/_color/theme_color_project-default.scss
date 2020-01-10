@@ -1,12 +1,18 @@
-$default-block-color: #ffffff;
-$accent-block-color: #ffcc00;
+var(--default-block-color): #ffffff;
+$default-accent-block-color: #ffcc00;
 $default-border-color: #000000;
 
-$main-text-color: #000000;
-$second-text-color: rgba(0, 0, 0, 0.6);
-$additional-text-color: rgba(0, 0, 0, 0.3);
-$link-color: #0077ff;
+$default-main-text-color: #000000;
+$default-second-text-color: rgba(0, 0, 0, 0.6);
+$default-additional-text-color: rgba(0, 0, 0, 0.3);
+$default-link-color: #0077ff;
 
 .theme_color_project-default {
-  
+  --default-block-color: #{var(--default-block-color)};
+  --accent-block-color: #{$default-accent-block-color};
+  --default-border-color: #{$default-border-color};
+  --main-text-color: #{$default-main-text-color};
+  --second-text-color: #{$default-second-text-color};
+  --additional-text-color: #{$default-additional-text-color};
+  --link-color: #{$default-link-color};
 }
