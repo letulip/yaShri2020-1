@@ -6,6 +6,15 @@ html * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+.theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
 .theme_color_project-default {
   --default-block-color: #ffffff;
   --accent-block-color: #ffcc00;
@@ -71,8 +80,63 @@ html * {
   --gap: var(--space-s);
   --gap-half: var(--gap)/2; }
 
+.layout {
+  width: 300px;
+  height: 150px;
+  background-color: aquamarine;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.layout__container {
+  width: 200px;
+  height: 43px;
+  background-color: cadetblue;
+  margin: 5px;
+  -ms-flex-item-align: center;
+      align-self: center; }
+
+.layout__container_size_s {
+  max-width: 920px; }
+
+.layout__container_size_m {
+  max-width: 1280px; }
+
+.layout__container_space-v_xxxxl {
+  -webkit-padding-before: var(--space-xxxxl);
+          padding-block-start: var(--space-xxxxl);
+  -webkit-padding-after: var(--space-xxxxl);
+          padding-block-end: var(--space-xxxxl); }
+
+.layout__container_space-v_xxxxxl {
+  -webkit-padding-before: var(--space-xxxxxl);
+          padding-block-start: var(--space-xxxxxl);
+  -webkit-padding-after: var(--space-xxxxxl);
+          padding-block-end: var(--space-xxxxxl); }
+
+.indent-b_xxl {
+  -webkit-margin-after: var(--space-xxl);
+          margin-block-end: var(--space-xxl); }
+
+.indent-b_xxxxl {
+  -webkit-margin-after: var(--space-xxxxl);
+          margin-block-end: var(--space-xxxxl); }
+
+.grid_m-columns {
+  --columns-count: 12; }
+
 @media (min-width: 1024px) {
+    .theme {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
     .theme_gap_small {
-      --gap: var(--space-xl); } }
+      --gap: var(--space-xl); }
+    .grid_m-columns {
+      --columns-count: 12; } }
 
 /*# sourceMappingURL=style.css.map */

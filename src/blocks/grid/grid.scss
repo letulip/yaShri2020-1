@@ -1,0 +1,11 @@
+.grid {
+
+}
+
+.grid_m-columns {
+  --columns-count: 12;
+
+  @media (min-width: $desktop-resolution) {
+    --columns-count: 12;
+  }
+}
