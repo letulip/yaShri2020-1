@@ -37,3 +37,26 @@
 @import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_4.scss";
 @import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_5.scss";
 @import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_8.scss";
+
+// card block imports
+@import "../blocks/card/card.scss";
+@import "../blocks/card/_view/card_view_default.scss";
+@import "../blocks/card/_border/card_border_all.scss";
+@import "../blocks/card/__content/card__content.scss";
+@import "../blocks/card/__content/_distribute/card__content_distribute_center.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_l.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_m.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_xl.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_xxl.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_xxxl.scss";
+@import "../blocks/card/__content/_vertical-align/card__content_vertical-align_center.scss";
+@import "../blocks/card/__footer/_distribute/card__footer_distribute_center.scss";
+@import "../blocks/card/__footer/_distribute/card__footer_distribute_between.scss";
+@import "../blocks/card/__footer/_distribute/card__footer_distribute_right.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_l.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_m.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_xl.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_xxl.scss";
+@import "../blocks/card/__footer/_vertical-align/card__footer_vertical-align_center.scss";
+@import "../blocks/card/__footer/_vertical-align/card__footer_vertical-align_bottom.scss";
+@import "../blocks/card/__footer/_vertical-align/card__footer_vertical-align_top.scss";
