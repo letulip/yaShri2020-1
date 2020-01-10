@@ -149,3 +149,20 @@
 @import "../blocks/section/_indent-b/section_indent-b_xxxxl.scss";
 @import "../blocks/section/_space-v/section_space-v_xxl.scss";
 @import "../blocks/section/_space-v/section_space-v_xxxxl.scss";
+
+// text block imports
+@import "../blocks/text/text.scss";
+@import "../blocks/text/_align/text_align_center.scss";
+@import "../blocks/text/_size/text_size_s.scss";
+@import "../blocks/text/_size/text_size_m.scss";
+@import "../blocks/text/_size/text_size_l.scss";
+@import "../blocks/text/_size/text_size_xl.scss";
+@import "../blocks/text/_size/text_size_xxl.scss";
+@import "../blocks/text/_type/text_type_h1.scss";
+@import "../blocks/text/_type/text_type_h2.scss";
+@import "../blocks/text/_type/text_type_h3.scss";
+@import "../blocks/text/_type/text_type_p.scss";
+@import "../blocks/text/__word/text__word.scss";
+@import "../blocks/text/__word/_width/text__word_width_s.scss";
+@import "../blocks/text/__word/_width/text__word_width_m.scss";
+@import "../blocks/text/__word/_width/text__word_width_l.scss";
