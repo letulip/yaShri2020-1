@@ -181,6 +181,13 @@ html * {
 .text_size_xxl .text__word_width_l {
   max-width: 184px; }
 
+.avatar {
+  background-color: #000000; }
+
+.avatar_size_m {
+  width: 60px;
+  height: 60px; }
+
 @media (min-width: 1024px) {
     .theme {
       -webkit-box-orient: horizontal;
