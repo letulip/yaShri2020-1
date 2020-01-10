@@ -98,3 +98,20 @@
 @import "../blocks/form/__label/form__label.scss";
 @import "../blocks/form/__label/_width/form__label_width_default.scss";
 @import "../blocks/form/__control/form__control.scss";
+
+// informer block imports
+@import "../blocks/informer/informer.scss";
+@import "../blocks/informer/_border/informer_border_all.scss";
+@import "../blocks/informer/_view/informer_view_default.scss";
+@import "../blocks/informer/__action/informer__action.scss";
+@import "../blocks/informer/__action/_distribute/informer__action_distribute_between.scss";
+@import "../blocks/informer/__action/_distribute/informer__action_distribute_default.scss";
+@import "../blocks/informer/__action/_distribute/informer__action_distribute_center.scss";
+@import "../blocks/informer/__action/_space-a/informer__action_space-a_xl.scss";
+@import "../blocks/informer/__action/_space-a/informer__action_space-a_xxl.scss";
+@import "../blocks/informer/__content/informer__content.scss";
+@import "../blocks/informer/__content/_distribute/informer__content_distribute_between.scss";
+@import "../blocks/informer/__content/_distribute/informer__content_distribute_default.scss";
+@import "../blocks/informer/__content/_distribute/informer__content_distribute_center.scss";
+@import "../blocks/informer/__content/_space-a/informer__content_space-a_xl.scss";
+@import "../blocks/informer/__content/_space-a/informer__content_space-a_xxl.scss";

@@ -57,6 +57,12 @@ html * {
 .form__label_width_default {
   max-width: 35%; }
 
+.informer_border_all {
+  border-width: 3px; }
+
+.informer_view_default {
+  background-color: #ffffff; }
+
 @media (min-width: 1024px) {
     .theme {
       -webkit-box-orient: horizontal;
