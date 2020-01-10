@@ -94,10 +94,50 @@ html * {
   max-width: 35%; }
 
 .informer_border_all {
-  border-width: 3px; }
+  border: 3px solid var(--default-border-color); }
 
 .informer_view_default {
-  background-color: #ffffff; }
+  background-color: var(--default-block-color); }
+
+.informer__action_space-a_xl {
+  -webkit-padding-before: 27px;
+          padding-block-start: 27px;
+  -webkit-padding-after: 27px;
+          padding-block-end: 27px;
+  -webkit-padding-start: 27px;
+          padding-inline-start: 27px;
+  -webkit-padding-end: 27px;
+          padding-inline-end: 27px; }
+
+.informer__action_space-a_xxl {
+  -webkit-padding-before: 36px;
+          padding-block-start: 36px;
+  -webkit-padding-after: 36px;
+          padding-block-end: 36px;
+  -webkit-padding-start: 36px;
+          padding-inline-start: 36px;
+  -webkit-padding-end: 36px;
+          padding-inline-end: 36px; }
+
+.informer__content_space-a_xl {
+  -webkit-padding-before: 27px;
+          padding-block-start: 27px;
+  -webkit-padding-after: 27px;
+          padding-block-end: 27px;
+  -webkit-padding-start: 27px;
+          padding-inline-start: 27px;
+  -webkit-padding-end: 27px;
+          padding-inline-end: 27px; }
+
+.informer__content_space-a_xxl {
+  -webkit-padding-before: 36px;
+          padding-block-start: 36px;
+  -webkit-padding-after: 36px;
+          padding-block-end: 36px;
+  -webkit-padding-start: 36px;
+          padding-inline-start: 36px;
+  -webkit-padding-end: 36px;
+          padding-inline-end: 36px; }
 
 .text_align_center {
   text-align: center; }
@@ -305,9 +345,9 @@ html * {
 
 .image {
   width: 100%;
-  border: 3px solid #000000;
-  background-color: #ffffff;
-  fill: #000000; }
+  border: 3px solid var(--default-border-color);
+  background-color: var(--default-block-color);
+  fill: var(--default-border-color); }
 
 .header {
   -webkit-margin-before: 45px;
@@ -336,7 +376,7 @@ html * {
 .onoffswitch {
   width: 97px;
   height: 32px;
-  border: 2px solid #000000; }
+  border: 2px solid var(--default-border-color); }
 
 .onoffswitch_checked .onoffswitch__button {
   -webkit-margin-start: 67px;
@@ -345,13 +385,18 @@ html * {
 .onoffswitch__button {
   width: 24px;
   height: 24px;
-  background-color: #000000;
+  background-color: var(--default-border-color);
   -webkit-margin-start: 2px;
           margin-inline-start: 2px;
   -webkit-margin-before: 2px;
           margin-block-start: 2px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
+
+.warning {
+  min-height: 335px;
+  width: auto;
+  max-width: 335px; }
 
 @media (min-width: 1024px) {
     .theme_gap_small {

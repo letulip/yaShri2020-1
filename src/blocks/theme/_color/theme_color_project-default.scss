@@ -1,4 +1,4 @@
-var(--default-block-color): #ffffff;
+$default-block-color: #ffffff;
 $default-accent-block-color: #ffcc00;
 $default-border-color: #000000;
 
@@ -8,7 +8,7 @@ $default-additional-text-color: rgba(0, 0, 0, 0.3);
 $default-link-color: #0077ff;
 
 .theme_color_project-default {
-  --default-block-color: #{var(--default-block-color)};
+  --default-block-color: #{$default-block-color};
   --accent-block-color: #{$default-accent-block-color};
   --default-border-color: #{$default-border-color};
   --main-text-color: #{$default-main-text-color};
