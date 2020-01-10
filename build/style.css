@@ -248,6 +248,25 @@ html * {
 .button_size_xxl {
   height: 64px; }
 
+.input {
+  border-width: 3px;
+  width: 100%; }
+
+.input_size_s {
+  height: 24px; }
+
+.input_size_m {
+  height: 32px; }
+
+.input_size_l {
+  height: 42px; }
+
+.input_size_xl {
+  height: 56px; }
+
+.input_size_xxl {
+  height: 64px; }
+
 @media (min-width: 1024px) {
     .theme {
       -webkit-box-orient: horizontal;
