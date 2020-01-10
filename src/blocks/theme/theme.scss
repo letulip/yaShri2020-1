@@ -4,8 +4,8 @@ $desktop-resolution: 1024px;
   display: flex;
   flex-direction: column;
 
-  @media (min-width: $desktop-resolution) {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  // @media (min-width: $desktop-resolution) {
+  //   flex-direction: row;
+  //   flex-wrap: wrap;
+  // }
 }
