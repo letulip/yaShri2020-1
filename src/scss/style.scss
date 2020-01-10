@@ -1,5 +1,207 @@
 @import "variables.scss";
 @import "general.scss";
+
+// theme block imports
 @import "../blocks/theme/theme.scss";
+@import "../blocks/theme/_color/theme_color_project-default.scss";
+// @import "../blocks/theme/_color/theme_color_project-brand.scss";
+// @import "../blocks/theme/_color/theme_color_project-inverse.scss";
+// @import "../blocks/theme/_color/theme_color_project-warning.scss";
+@import "../blocks/theme/_size/theme_size_default.scss";
+@import "../blocks/theme/_space/theme_space_default.scss";
+@import "../blocks/theme/_gap/theme_gap_small.scss";
+
+// layout block imports
 @import "../blocks/layout/layout.scss";
+@import "../blocks/layout/__container/layout__container.scss";
+@import "../blocks/layout/__container/_align/layout__container_align_center.scss";
+@import "../blocks/layout/__container/_indent-b/layout__container_indent-b_xxl.scss";
+@import "../blocks/layout/__container/_indent-b/layout__container_indent-b_xxxxl.scss";
+@import "../blocks/layout/__container/_size/layout__container_size_m.scss";
+@import "../blocks/layout/__container/_size/layout__container_size_s.scss";
+@import "../blocks/layout/__container/_space-v/layout__container_space-v_xxxxl.scss";
+@import "../blocks/layout/__container/_space-v/layout__container_space-v_xxxxxl.scss";
+
+// grid block imports
 @import "../blocks/grid/grid.scss";
+@import "../blocks/grid/_col-gap/grid_col-gap_full.scss";
+@import "../blocks/grid/_col-gap/grid_col-gap_half.scss";
+@import "../blocks/grid/_col-gap/grid_col-gap_two-thirds.scss";
+@import "../blocks/grid/_m-columns/grid_m-columns_10.scss";
+@import "../blocks/grid/_m-columns/grid_m-columns_12.scss";
+@import "../blocks/grid/_row-gap/grid_row-gap_full.scss";
+@import "../blocks/grid/_row-gap/grid_row-gap_half.scss";
+@import "../blocks/grid/__fraction/grid__fraction.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_2.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_3.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_4.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_5.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_8.scss";
+
+// card block imports
+@import "../blocks/card/card.scss";
+@import "../blocks/card/_view/card_view_default.scss";
+@import "../blocks/card/_border/card_border_all.scss";
+@import "../blocks/card/__content/card__content.scss";
+@import "../blocks/card/__content/_distribute/card__content_distribute_center.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_l.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_m.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_xl.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_xxl.scss";
+@import "../blocks/card/__content/_space-a/card__content_space-a_xxxl.scss";
+@import "../blocks/card/__content/_vertical-align/card__content_vertical-align_center.scss";
+@import "../blocks/card/__footer/_distribute/card__footer_distribute_center.scss";
+@import "../blocks/card/__footer/_distribute/card__footer_distribute_between.scss";
+@import "../blocks/card/__footer/_distribute/card__footer_distribute_right.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_l.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_m.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_xl.scss";
+@import "../blocks/card/__footer/_space-a/card__footer_space-a_xxl.scss";
+@import "../blocks/card/__footer/_vertical-align/card__footer_vertical-align_center.scss";
+@import "../blocks/card/__footer/_vertical-align/card__footer_vertical-align_bottom.scss";
+@import "../blocks/card/__footer/_vertical-align/card__footer_vertical-align_top.scss";
+
+// form block imports
+@import "../blocks/form/form.scss";
+@import "../blocks/form/_border/form_border_all.scss";
+@import "../blocks/form/_view/form_view_default.scss";
+@import "../blocks/form/__item/_border/form__item_border_bottom.scss";
+@import "../blocks/form/__item/_distribute/form__item_distribute_between.scss";
+@import "../blocks/form/__item/_vertical-align/form__item_vertical-align_center.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_xxxxl.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_xxxl.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_xxl.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_xl.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_l.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_xxxs.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_xxs.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_s.scss";
+@import "../blocks/form/__item/_indent-b/form__item_indent-b_m.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_xxxxl.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_xxxl.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_xxl.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_xl.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_l.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_xxxs.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_xxs.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_s.scss";
+@import "../blocks/form/__item/_space-h/form__item_space-h_m.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_xxxxl.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_xxxl.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_xxl.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_xl.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_l.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_xxxs.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_xxs.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_s.scss";
+@import "../blocks/form/__item/_space-v/form__item_space-v_m.scss";
+@import "../blocks/form/__label/form__label.scss";
+@import "../blocks/form/__label/_width/form__label_width_default.scss";
+@import "../blocks/form/__control/form__control.scss";
+
+// informer block imports
+@import "../blocks/informer/informer.scss";
+@import "../blocks/informer/_border/informer_border_all.scss";
+@import "../blocks/informer/_view/informer_view_default.scss";
+@import "../blocks/informer/__action/informer__action.scss";
+@import "../blocks/informer/__action/_distribute/informer__action_distribute_between.scss";
+@import "../blocks/informer/__action/_distribute/informer__action_distribute_default.scss";
+@import "../blocks/informer/__action/_distribute/informer__action_distribute_center.scss";
+@import "../blocks/informer/__action/_space-a/informer__action_space-a_xl.scss";
+@import "../blocks/informer/__action/_space-a/informer__action_space-a_xxl.scss";
+@import "../blocks/informer/__content/informer__content.scss";
+@import "../blocks/informer/__content/_distribute/informer__content_distribute_between.scss";
+@import "../blocks/informer/__content/_distribute/informer__content_distribute_default.scss";
+@import "../blocks/informer/__content/_distribute/informer__content_distribute_center.scss";
+@import "../blocks/informer/__content/_space-a/informer__content_space-a_xl.scss";
+@import "../blocks/informer/__content/_space-a/informer__content_space-a_xxl.scss";
+
+// list block imports
+@import "../blocks/list/list.scss";
+@import "../blocks/list/_border/list_border_all.scss";
+@import "../blocks/list/_view/list_view_default.scss";
+@import "../blocks/list/__item/list__item.scss";
+@import "../blocks/list/__item/_border/list__item_border_bottom.scss";
+@import "../blocks/list/__item/_border/list__item_border_top.scss";
+@import "../blocks/list/__item/_distribute/list__item_distribute_between.scss";
+@import "../blocks/list/__item/_vertical-align/list__item_vertical-align_center.scss";
+@import "../blocks/list/__item/_distribute/list__item_distribute_between.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_s.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_m.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_l.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_xl.scss";
+@import "../blocks/list/__item/_indent-t/list__item_indent-t_m.scss";
+@import "../blocks/list/__item/_space-a/list__item_space-a_m.scss";
+@import "../blocks/list/__item/_space-b/list__item_space-b_s.scss";
+
+// icon-plus block imports
+@import "../blocks/icon-plus/icon-plus.scss";
+@import "../blocks/icon-plus/_vertical-align/icon-plus_vertical-align_center.scss";
+@import "../blocks/icon-plus/__block/icon-plus__block.scss";
+@import "../blocks/icon-plus/__icon/icon-plus__icon.scss";
+@import "../blocks/icon-plus/__icon/_indent-l/icon-plus__icon_inden-l_l.scss";
+@import "../blocks/icon-plus/__icon/_indent-r/icon-plus__icon_inden-r_m.scss";
+@import "../blocks/icon-plus/__icon/_indent-r/icon-plus__icon_inden-r_s.scss";
+
+// section block imports
+@import "../blocks/section/section.scss";
+@import "../blocks/section/_indent-b/section_indent-b_xxl.scss";
+@import "../blocks/section/_indent-b/section_indent-b_xxxxl.scss";
+@import "../blocks/section/_space-v/section_space-v_xxl.scss";
+@import "../blocks/section/_space-v/section_space-v_xxxxl.scss";
+
+// text block imports
+@import "../blocks/text/text.scss";
+@import "../blocks/text/_align/text_align_center.scss";
+@import "../blocks/text/_size/text_size_s.scss";
+@import "../blocks/text/_size/text_size_m.scss";
+@import "../blocks/text/_size/text_size_l.scss";
+@import "../blocks/text/_size/text_size_xl.scss";
+@import "../blocks/text/_size/text_size_xxl.scss";
+@import "../blocks/text/_type/text_type_h1.scss";
+@import "../blocks/text/_type/text_type_h2.scss";
+@import "../blocks/text/_type/text_type_h3.scss";
+@import "../blocks/text/_type/text_type_p.scss";
+@import "../blocks/text/__word/text__word.scss";
+@import "../blocks/text/__word/_width/text__word_width_s.scss";
+@import "../blocks/text/__word/_width/text__word_width_m.scss";
+@import "../blocks/text/__word/_width/text__word_width_l.scss";
+
+// avatar block imports
+@import "../blocks/avatar/avatar.scss";
+@import "../blocks/avatar/_size/avatar_size_m.scss";
+
+// brand-logo block imports
+@import "../blocks/brand-logo/brand-logo.scss";
+@import "../blocks/brand-logo/_name/brand-logo_name_blue.scss";
+@import "../blocks/brand-logo/_name/brand-logo_name_green.scss";
+@import "../blocks/brand-logo/_name/brand-logo_name_purple.scss";
+@import "../blocks/brand-logo/_name/brand-logo_name_red.scss";
+@import "../blocks/brand-logo/_size/brand-logo_size_xxs.scss";
+@import "../blocks/brand-logo/_size/brand-logo_size_xs.scss";
+@import "../blocks/brand-logo/_size/brand-logo_size_s.scss";
+@import "../blocks/brand-logo/_size/brand-logo_size_m.scss";
+@import "../blocks/brand-logo/_size/brand-logo_size_l.scss";
+
+// placeholder block imports
+@import "../blocks/placeholder/placeholder.scss";
+@import "../blocks/placeholder/_size/placeholder_size_m.scss";
+@import "../blocks/placeholder/_view/placeholder_view_primary.scss";
+
+// button block imports
+@import "../blocks/button/button.scss";
+@import "../blocks/button/_width/button_width_full.scss";
+@import "../blocks/button/_size/button_size.scss";
+@import "../blocks/button/_size/button_size_s.scss";
+@import "../blocks/button/_size/button_size_m.scss";
+@import "../blocks/button/_size/button_size_l.scss";
+@import "../blocks/button/_size/button_size_xl.scss";
+@import "../blocks/button/_size/button_size_xxl.scss";
+
+// input block imports
+@import "../blocks/input/input.scss";
+@import "../blocks/input/_size/input_size_s.scss";
+@import "../blocks/input/_size/input_size_m.scss";
+@import "../blocks/input/_size/input_size_l.scss";
+@import "../blocks/input/_size/input_size_xl.scss";
+@import "../blocks/input/_size/input_size_xxl.scss";

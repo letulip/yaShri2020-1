@@ -1,0 +1,11 @@
+$gap: $space-s;
+$gap-half: $gap/2;
+
+@media (min-width: $desktop-resolution) {
+  $gap: $space-xl;
+  $gap-half: $gap/2;
+}
+
+.theme_gap_small {
+  
+}
