@@ -1,3 +1,5 @@
 .header__content {
   max-width: $max-width-m;
+  display: flex;
+  justify-content: space-between;
 }

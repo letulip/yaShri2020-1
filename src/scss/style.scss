@@ -214,3 +214,8 @@
 @import "../blocks/header/header.scss";
 @import "../blocks/header/__content/header__content.scss";
 @import "../blocks/header/__logo/header__logo.scss";
+
+// onoffswitch block imports
+@import "../blocks/onoffswitch/onoffswitch.scss";
+@import "../blocks/onoffswitch/_checked/onoffswitch_checked.scss";
+@import "../blocks/onoffswitch/__button/onoffswitch__button.scss";

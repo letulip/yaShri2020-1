@@ -287,12 +287,38 @@ html * {
           margin-inline-end: var(--gap); }
 
 .header__content {
-  max-width: 1280px; }
+  max-width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .header__logo {
   width: 179px;
   height: 34px;
   background-color: #000000; }
+
+.onoffswitch {
+  width: 97px;
+  height: 32px;
+  border: 2px solid #000000; }
+
+.onoffswitch_checked .onoffswitch__button {
+  -webkit-margin-start: 67px;
+          margin-inline-start: 67px; }
+
+.onoffswitch__button {
+  width: 24px;
+  height: 24px;
+  background-color: #000000;
+  -webkit-margin-start: 2px;
+          margin-inline-start: 2px;
+  -webkit-margin-before: 2px;
+          margin-block-start: 2px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s; }
 
 @media (min-width: 1024px) {
     .theme_gap_small {
