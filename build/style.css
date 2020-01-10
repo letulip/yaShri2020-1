@@ -54,6 +54,9 @@ html * {
   -webkit-padding-after: 72px;
           padding-block-end: 72px; }
 
+.form__label_width_default {
+  max-width: 35%; }
+
 @media (min-width: 1024px) {
     .theme {
       -webkit-box-orient: horizontal;
