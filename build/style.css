@@ -267,6 +267,12 @@ html * {
 .input_size_xxl {
   height: 64px; }
 
+.image {
+  width: 100%;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  fill: #000000; }
+
 @media (min-width: 1024px) {
     .theme {
       -webkit-box-orient: horizontal;

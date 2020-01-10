@@ -110,7 +110,7 @@ const serve = () => {
     server: './build',
     notify: false,
     open: true,
-    port: 3000,
+    port: 3001,
     ui: false
   });
 
