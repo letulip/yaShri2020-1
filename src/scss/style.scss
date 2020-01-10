@@ -133,3 +133,12 @@
 @import "../blocks/list/__item/_indent-t/list__item_indent-t_m.scss";
 @import "../blocks/list/__item/_space-a/list__item_space-a_m.scss";
 @import "../blocks/list/__item/_space-b/list__item_space-b_s.scss";
+
+// icon-plus block imports
+@import "../blocks/icon-plus/icon-plus.scss";
+@import "../blocks/icon-plus/_vertical-align/icon-plus_vertical-align_center.scss";
+@import "../blocks/icon-plus/__block/icon-plus__block.scss";
+@import "../blocks/icon-plus/__icon/icon-plus__icon.scss";
+@import "../blocks/icon-plus/__icon/_indent-l/icon-plus__icon_inden-l_l.scss";
+@import "../blocks/icon-plus/__icon/_indent-r/icon-plus__icon_inden-r_m.scss";
+@import "../blocks/icon-plus/__icon/_indent-r/icon-plus__icon_inden-r_s.scss";
