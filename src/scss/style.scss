@@ -1,5 +1,7 @@
 @import "variables.scss";
 @import "general.scss";
+
+// theme block imports
 @import "../blocks/theme/theme.scss";
 @import "../blocks/theme/_color/theme_color_project-default.scss";
 // @import "../blocks/theme/_color/theme_color_project-brand.scss";
@@ -8,6 +10,8 @@
 @import "../blocks/theme/_size/theme_size_default.scss";
 @import "../blocks/theme/_space/theme_space_default.scss";
 @import "../blocks/theme/_gap/theme_gap_small.scss";
+
+// layout block imports
 @import "../blocks/layout/layout.scss";
 @import "../blocks/layout/__container/layout__container.scss";
 @import "../blocks/layout/__container/_align/layout__container_align_center.scss";
@@ -17,4 +21,19 @@
 @import "../blocks/layout/__container/_size/layout__container_size_s.scss";
 @import "../blocks/layout/__container/_space-v/layout__container_space-v_xxxxl.scss";
 @import "../blocks/layout/__container/_space-v/layout__container_space-v_xxxxxl.scss";
+
+// grid block imports
 @import "../blocks/grid/grid.scss";
+@import "../blocks/grid/_col-gap/grid_col-gap_full.scss";
+@import "../blocks/grid/_col-gap/grid_col-gap_half.scss";
+@import "../blocks/grid/_col-gap/grid_col-gap_two-thirds.scss";
+@import "../blocks/grid/_m-columns/grid_m-columns_10.scss";
+@import "../blocks/grid/_m-columns/grid_m-columns_12.scss";
+@import "../blocks/grid/_row-gap/grid_row-gap_full.scss";
+@import "../blocks/grid/_row-gap/grid_row-gap_half.scss";
+@import "../blocks/grid/__fraction/grid__fraction.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_2.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_3.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_4.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_5.scss";
+@import "../blocks/grid/__fraction/_m-col.scss/grid__fraction_m-col_8.scss";
