@@ -115,3 +115,21 @@
 @import "../blocks/informer/__content/_distribute/informer__content_distribute_center.scss";
 @import "../blocks/informer/__content/_space-a/informer__content_space-a_xl.scss";
 @import "../blocks/informer/__content/_space-a/informer__content_space-a_xxl.scss";
+
+// list block imports
+@import "../blocks/list/list.scss";
+@import "../blocks/list/_border/list_border_all.scss";
+@import "../blocks/list/_view/list_view_default.scss";
+@import "../blocks/list/__item/list__item.scss";
+@import "../blocks/list/__item/_border/list__item_border_bottom.scss";
+@import "../blocks/list/__item/_border/list__item_border_top.scss";
+@import "../blocks/list/__item/_distribute/list__item_distribute_between.scss";
+@import "../blocks/list/__item/_vertical-align/list__item_vertical-align_center.scss";
+@import "../blocks/list/__item/_distribute/list__item_distribute_between.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_s.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_m.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_l.scss";
+@import "../blocks/list/__item/_indent-b/list__item_indent-b_xl.scss";
+@import "../blocks/list/__item/_indent-t/list__item_indent-t_m.scss";
+@import "../blocks/list/__item/_space-a/list__item_space-a_m.scss";
+@import "../blocks/list/__item/_space-b/list__item_space-b_s.scss";
