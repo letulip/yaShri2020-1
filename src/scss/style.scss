@@ -233,6 +233,12 @@
 @import "../blocks/payment/payment.scss";
 @import "../blocks/payment/__footer/payment__footer.scss";
 
+// payment block imports
+@import "../blocks/product/product.scss";
+@import "../blocks/product/__content/product__content.scss";
+@import "../blocks/product/__footer/product__footer.scss";
+@import "../blocks/product/__image/product__image.scss";
+
 // footer block imports
 @import "../blocks/footer/footer.scss";
 @import "../blocks/footer/__content/footer__content.scss";
