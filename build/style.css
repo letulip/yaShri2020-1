@@ -927,6 +927,12 @@ body {
   background-color: #ffffff;
   --image-placeholder: url('img/image-placeholder-primary.svg'); }
 
+.product__title {
+  -webkit-margin-start: var(--gap-half);
+          margin-inline-start: var(--gap-half);
+  -webkit-margin-end: var(--gap-half);
+          margin-inline-end: var(--gap-half); }
+
 .history {
   border: 3px solid var(--default-border-color);
   -webkit-margin-end: var(--gap-half);
