@@ -1,4 +1,10 @@
+$max-width-s: 920px;
+$max-width-m: 1280px;
+
 .layout {
+  width: 100%;
+  max-width: $max-width-m;
+  align-self: center;
   display: flex;
   flex-direction: column;
 

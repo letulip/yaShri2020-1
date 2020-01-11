@@ -1,5 +1,10 @@
 .warning {
   min-height: 335px;
-  width: auto;
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
+}
+
+.warning .placeholder {
+  margin-block-start: $space-m;
+  margin-block-end: $space-m;
 }
