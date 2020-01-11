@@ -15,4 +15,6 @@ $default-link-color: #0077ff;
   --second-text-color: #{$default-second-text-color};
   --additional-text-color: #{$default-additional-text-color};
   --link-color: #{$default-link-color};
+
+  --image-placeholder: url('img/image-placeholder-inverse.svg');
 }
