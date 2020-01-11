@@ -255,6 +255,10 @@
 @import "../blocks/event/__speaker/event__speaker.scss";
 @import "../blocks/event/__title/event__title.scss";
 
+// event block imports
+@import "../blocks/cover/cover.scss";
+@import "../blocks/cover/__preview/cover__preview.scss";
+
 // footer block imports
 @import "../blocks/footer/footer.scss";
 @import "../blocks/footer/__content/footer__content.scss";
