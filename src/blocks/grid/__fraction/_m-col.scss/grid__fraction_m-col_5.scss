@@ -1,0 +1,15 @@
+.grid__fraction_m-col_5 {
+  max-width: calc(#{$screen-m} / 12 * 5);
+
+  @media (min-width: $desktop-resolution) {
+    max-width: calc(#{$max-width-m} / 12 * 5);
+  }
+}
+
+.grid_m-columns_10 .grid__fraction_m-col_5 {
+  max-width: calc(#{$screen-m} / 10 * 5);
+
+  @media (min-width: $desktop-resolution) {
+    max-width: calc(#{$max-width-m} / 10 * 5);
+  }
+}

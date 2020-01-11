@@ -3,9 +3,4 @@ $desktop-resolution: 1024px;
 .theme {
   display: flex;
   flex-direction: column;
-
-  @media (min-width: $desktop-resolution) {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
 }

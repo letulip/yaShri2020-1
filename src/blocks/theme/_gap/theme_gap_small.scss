@@ -1,11 +1,11 @@
-$gap: $space-s;
-$gap-half: $gap/2;
-
-@media (min-width: $desktop-resolution) {
-  $gap: $space-xl;
-  $gap-half: $gap/2;
-}
-
 .theme_gap_small {
-  
+  --gap: #{$space-s};
+  --gap-half: calc(var(--gap) / 2);
+  --gap-two-thirds: calc(var(--gap) / 3 * 2);
+
+  @media (min-width: $desktop-resolution) {
+    --gap: #{$space-xl};
+    --gap-half: calc(var(--gap) / 2);
+    --gap-two-thirds: calc(var(--gap) / 3 * 2);
+  }
 }

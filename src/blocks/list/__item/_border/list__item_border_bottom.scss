@@ -1,0 +1,7 @@
+.list__item_border_bottom {
+  border-bottom: 3px solid var(--default-border-color);
+}
+
+.list__item_border_bottom:last-child {
+  border-bottom: none;
+}

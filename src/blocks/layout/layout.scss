@@ -1,7 +1,15 @@
+$max-width-s: 920px;
+$max-width-m: 1280px;
+
 .layout {
-  width: 300px;
-  height: 150px;
-  background-color: aquamarine;
-  margin: 10px;
+  width: 100%;
+  max-width: $max-width-m;
+  align-self: center;
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop-resolution) {
+    // flex-direction: row;
+    // flex-wrap: wrap;
+  }
 }

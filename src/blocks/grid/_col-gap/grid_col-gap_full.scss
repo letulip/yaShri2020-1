@@ -1,0 +1,9 @@
+.grid_col-gap_full {
+  // margin-inline-start: var(--gap);
+  // margin-inline-end: var(--gap);
+}
+
+.grid_col-gap_full .grid__fraction {
+  margin-inline-start: var(--gap);
+  margin-inline-end: var(--gap);
+}

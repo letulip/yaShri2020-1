@@ -1,3 +1,5 @@
-$max-width-s: 920px;
-$max-width-m: 1280px;
-
+.layout__container {
+  width: 100%;
+  align-self: center;
+  overflow-x: auto;
+}
