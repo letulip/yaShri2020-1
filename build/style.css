@@ -102,6 +102,66 @@ body {
   -webkit-padding-after: 72px;
           padding-block-end: 72px; }
 
+.form_border_all {
+  border: 3px solid var(--default-border-color); }
+
+.form_view_default {
+  background-color: var(--default-block-color); }
+
+.form__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.form__item_border_bottom {
+  border-bottom: 3px solid var(--default-border-color); }
+
+.form__item_distribute_between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.form__item_vertical-align_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.form__item_indent-b_xxxxl {
+  -webkit-margin-after: 51px;
+          margin-block-end: 51px; }
+
+.form__item_indent-b_xxxl {
+  -webkit-margin-after: 45px;
+          margin-block-end: 45px; }
+
+.form__item_indent-b_xxl {
+  -webkit-margin-after: 36px;
+          margin-block-end: 36px; }
+
+.form__item_indent-b_xl {
+  -webkit-margin-after: 27px;
+          margin-block-end: 27px; }
+
+.form__item_indent-b_l {
+  -webkit-margin-after: 24px;
+          margin-block-end: 24px; }
+
+.form__item_indent-b_xxxs {
+  -webkit-margin-after: 3px;
+          margin-block-end: 3px; }
+
+.form__item_indent-b_xxs {
+  -webkit-margin-after: 6px;
+          margin-block-end: 6px; }
+
+.form__item_indent-b_s {
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px; }
+
+.form__item_indent-b_m {
+  -webkit-margin-after: 18px;
+          margin-block-end: 18px; }
+
 .form__label_width_default {
   max-width: 35%; }
 
@@ -478,6 +538,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.payment {
+  border: 3px solid var(--default-border-color); }
 
 .footer {
   -webkit-margin-before: 45px;
