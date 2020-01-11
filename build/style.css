@@ -115,25 +115,19 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.grid_col-gap_full {
+.grid_col-gap_full .grid__fraction {
   -webkit-margin-start: var(--gap);
           margin-inline-start: var(--gap);
   -webkit-margin-end: var(--gap);
           margin-inline-end: var(--gap); }
 
-.grid_col-gap_half {
+.grid_col-gap_half .grid__fraction {
   -webkit-margin-start: var(--gap-half);
           margin-inline-start: var(--gap-half);
   -webkit-margin-end: var(--gap-half);
           margin-inline-end: var(--gap-half); }
 
-.grid_col-gap_half .grid__fraction_m-col_2 {
-  -webkit-margin-start: var(--gap-half);
-          margin-inline-start: var(--gap-half);
-  -webkit-margin-end: var(--gap-half);
-          margin-inline-end: var(--gap-half); }
-
-.grid_col-gap_two-thirds {
+.grid_col-gap_two-thirds .grid__fraction {
   -webkit-margin-start: var(--gap-two-thirds);
           margin-inline-start: var(--gap-two-thirds);
   -webkit-margin-end: var(--gap-two-thirds);
@@ -151,25 +145,38 @@ body {
   -webkit-margin-after: var(--gap-half);
           margin-block-end: var(--gap-half); }
 
+.grid__fraction {
+  width: 100%; }
+
 .grid__fraction_m-col_2 {
-  width: 100%;
   max-width: calc(1024px / 12 * 2); }
 
+.grid_m-columns_10 .grid__fraction_m-col_2 {
+  max-width: calc(1024px / 10 * 2); }
+
 .grid__fraction_m-col_3 {
-  width: 100%;
   max-width: calc(1024px / 12 * 3); }
 
+.grid_m-columns_10 .grid__fraction_m-col_3 {
+  max-width: calc(1024px / 10 * 3); }
+
 .grid__fraction_m-col_4 {
-  width: 100%;
   max-width: calc(1024px / 12 * 4); }
 
+.grid_m-columns_10 .grid__fraction_m-col_4 {
+  max-width: calc(1024px / 10 * 4); }
+
 .grid__fraction_m-col_5 {
-  width: 100%;
   max-width: calc(1024px / 12 * 5); }
 
+.grid_m-columns_10 .grid__fraction_m-col_5 {
+  max-width: calc(1024px / 10 * 5); }
+
 .grid__fraction_m-col_8 {
-  width: 100%;
   max-width: calc(1024px / 12 * 8); }
+
+.grid_m-columns_10 .grid__fraction_m-col_8 {
+  max-width: calc(1024px / 10 * 8); }
 
 .card_border_all {
   border: 3px solid var(--default-border-color); }
@@ -547,6 +554,26 @@ body {
   -webkit-padding-after: 15px;
           padding-block-end: 15px; }
 
+.section_indent-b_xxl {
+  -webkit-margin-after: 36px;
+          margin-block-end: 36px; }
+
+.section_indent-b_xxxxl {
+  -webkit-margin-after: 51px;
+          margin-block-end: 51px; }
+
+.section_space-v_xxl {
+  -webkit-padding-before: 36px;
+          padding-block-start: 36px;
+  -webkit-padding-after: 36px;
+          padding-block-end: 36px; }
+
+.section_space-v_xxxxl {
+  -webkit-padding-before: 51px;
+          padding-block-start: 51px;
+  -webkit-padding-after: 51px;
+          padding-block-end: 51px; }
+
 .text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -853,7 +880,7 @@ body {
 .warning {
   min-height: 335px;
   width: 100%;
-  max-width: 335px; }
+  height: 100%; }
 
 .warning .placeholder {
   -webkit-margin-before: 18px;
@@ -908,7 +935,9 @@ body {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-margin-before: 0;
+          margin-block-start: 0; }
 
 .history__details {
   display: -webkit-box;
@@ -956,7 +985,9 @@ body {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-margin-after: 0;
+          margin-block-end: 0; }
 
 .event {
   min-height: 400px;
@@ -1019,13 +1050,23 @@ body {
       --gap-two-thirds: calc(var(--gap) / 3 * 2); }
     .grid__fraction_m-col_2 {
       max-width: calc(1280px / 12 * 2); }
+    .grid_m-columns_10 .grid__fraction_m-col_2 {
+      max-width: calc(1280px / 10 * 2); }
     .grid__fraction_m-col_3 {
       max-width: calc(1280px / 12 * 3); }
+    .grid_m-columns_10 .grid__fraction_m-col_3 {
+      max-width: calc(1280px / 10 * 3); }
     .grid__fraction_m-col_4 {
       max-width: calc(1280px / 12 * 4); }
+    .grid_m-columns_10 .grid__fraction_m-col_4 {
+      max-width: calc(1280px / 10 * 4); }
     .grid__fraction_m-col_5 {
       max-width: calc(1280px / 12 * 5); }
+    .grid_m-columns_10 .grid__fraction_m-col_5 {
+      max-width: calc(1280px / 10 * 5); }
     .grid__fraction_m-col_8 {
-      max-width: calc(1280px / 12 * 8); } }
+      max-width: calc(1280px / 12 * 8); }
+    .grid_m-columns_10 .grid__fraction_m-col_8 {
+      max-width: calc(1280px / 10 * 8); } }
 
 /*# sourceMappingURL=style.css.map */
