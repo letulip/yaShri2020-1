@@ -233,11 +233,21 @@
 @import "../blocks/payment/payment.scss";
 @import "../blocks/payment/__footer/payment__footer.scss";
 
-// payment block imports
+// product block imports
 @import "../blocks/product/product.scss";
 @import "../blocks/product/__content/product__content.scss";
 @import "../blocks/product/__footer/product__footer.scss";
 @import "../blocks/product/__image/product__image.scss";
+
+// history block imports
+@import "../blocks/history/history.scss";
+@import "../blocks/history/__show/history__show.scss";
+@import "../blocks/history/__hide/history__hide.scss";
+@import "../blocks/history/__details/history__details.scss";
+@import "../blocks/history/__time/history__time.scss";
+@import "../blocks/history/__destination/history__destination.scss";
+@import "../blocks/history/__label/history__label.scss";
+@import "../blocks/history/__actions/history__actions.scss";
 
 // footer block imports
 @import "../blocks/footer/footer.scss";
