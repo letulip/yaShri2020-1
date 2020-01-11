@@ -12,6 +12,7 @@ const rename = require('gulp-rename');
 const filter = require('gulp-filter');
 const sprite = require('gulp-svgstore');
 const server = require('browser-sync').create();
+const concat = require('gulp-concat');
 
 const style = () => {
   return src('src/scss/style.scss')
@@ -47,6 +48,7 @@ const scripts = () => {
       'src/js/*.js',
       'src/blocks/**/*.js'
     ])
+    .pipe(concat('script.js'))
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(rollup({}, {
@@ -116,7 +118,7 @@ const serve = () => {
 
   watch(['src/blocks/**/*.scss', 'src/scss/**/*.scss', 'src/scss/style.scss'], style).on('change', server.reload);
   watch('src/*.html', copyHtml);
-  watch(['src/js/**/*.js', 'src/blocks/**/*.js'], jsWatch);
+  watch(['src/js/**/*.js', 'src/blocks/**/*.js'], jsWatch).on('change', server.reload);
 
   watch('*.html').on('change', server.reload);
 };
