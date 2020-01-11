@@ -78,7 +78,8 @@ body {
 .layout__container {
   width: 100%;
   -ms-flex-item-align: center;
-      align-self: center; }
+      align-self: center;
+  overflow-x: auto; }
 
 .layout__container_indent-b_xxl {
   -webkit-margin-after: 36px;
@@ -961,7 +962,8 @@ body {
   min-height: 400px;
   height: 100%;
   -webkit-margin-start: var(--gap-half);
-          margin-inline-start: var(--gap-half); }
+          margin-inline-start: var(--gap-half);
+  background-color: var(--default-block-color); }
 
 .event__preview {
   display: -webkit-box;
