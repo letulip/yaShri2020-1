@@ -15,4 +15,6 @@ $inverse-link-color: #0077ff;
   --second-text-color: #{$inverse-second-text-color};
   --additional-text-color: #{$inverse-additional-text-color};
   --link-color: #{$inverse-link-color};
+
+  background-color: var(--default-block-color);
 }
