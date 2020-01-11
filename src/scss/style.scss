@@ -249,6 +249,12 @@
 @import "../blocks/history/__label/history__label.scss";
 @import "../blocks/history/__actions/history__actions.scss";
 
+// event block imports
+@import "../blocks/event/event.scss";
+@import "../blocks/event/__preview/event__preview.scss";
+@import "../blocks/event/__speaker/event__speaker.scss";
+@import "../blocks/event/__title/event__title.scss";
+
 // footer block imports
 @import "../blocks/footer/footer.scss";
 @import "../blocks/footer/__content/footer__content.scss";

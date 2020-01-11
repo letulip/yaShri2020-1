@@ -223,6 +223,46 @@ body {
   -webkit-padding-end: 45px;
           padding-inline-end: 45px; }
 
+.card__footer_space-a_l {
+  -webkit-padding-before: 24px;
+          padding-block-start: 24px;
+  -webkit-padding-after: 24px;
+          padding-block-end: 24px;
+  -webkit-padding-start: 24px;
+          padding-inline-start: 24px;
+  -webkit-padding-end: 24px;
+          padding-inline-end: 24px; }
+
+.card__footer_space-a_m {
+  -webkit-padding-before: 18px;
+          padding-block-start: 18px;
+  -webkit-padding-after: 18px;
+          padding-block-end: 18px;
+  -webkit-padding-start: 18px;
+          padding-inline-start: 18px;
+  -webkit-padding-end: 18px;
+          padding-inline-end: 18px; }
+
+.card__footer_space-a_xl {
+  -webkit-padding-before: 27px;
+          padding-block-start: 27px;
+  -webkit-padding-after: 27px;
+          padding-block-end: 27px;
+  -webkit-padding-start: 27px;
+          padding-inline-start: 27px;
+  -webkit-padding-end: 27px;
+          padding-inline-end: 27px; }
+
+.card__footer_space-a_xxl {
+  -webkit-padding-before: 36px;
+          padding-block-start: 36px;
+  -webkit-padding-after: 36px;
+          padding-block-end: 36px;
+  -webkit-padding-start: 36px;
+          padding-inline-start: 36px;
+  -webkit-padding-end: 36px;
+          padding-inline-end: 36px; }
+
 .form_border_all {
   border: 3px solid var(--default-border-color); }
 
@@ -854,7 +894,9 @@ body {
   height: 160px; }
 
 .history {
-  border: 3px solid var(--default-border-color); }
+  border: 3px solid var(--default-border-color);
+  -webkit-margin-end: var(--gap-half);
+          margin-inline-end: var(--gap-half); }
 
 .history__show {
   display: -webkit-box;
@@ -914,6 +956,30 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+.event {
+  min-height: 400px;
+  height: 100%;
+  -webkit-margin-start: var(--gap-half);
+          margin-inline-start: var(--gap-half); }
+
+.event__preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-margin-after: 36px;
+          margin-block-end: 36px; }
+
+.event__speaker {
+  -webkit-margin-end: 9px;
+          margin-inline-end: 9px; }
+
+.event__title {
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px; }
 
 .footer {
   -webkit-margin-before: 45px;
