@@ -238,6 +238,7 @@
 @import "../blocks/product/__content/product__content.scss";
 @import "../blocks/product/__footer/product__footer.scss";
 @import "../blocks/product/__image/product__image.scss";
+@import "../blocks/product/__title/product__title.scss";
 
 // history block imports
 @import "../blocks/history/history.scss";
@@ -254,6 +255,10 @@
 @import "../blocks/event/__preview/event__preview.scss";
 @import "../blocks/event/__speaker/event__speaker.scss";
 @import "../blocks/event/__title/event__title.scss";
+
+// event block imports
+@import "../blocks/cover/cover.scss";
+@import "../blocks/cover/__preview/cover__preview.scss";
 
 // footer block imports
 @import "../blocks/footer/footer.scss";

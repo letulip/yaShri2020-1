@@ -15,4 +15,6 @@ $brand-link-color: #ffffff;
   --second-text-color: #{$brand-second-text-color};
   --additional-text-color: #{$brand-additional-text-color};
   --link-color: #{$brand-link-color};
+  
+  background-color: var(--default-block-color);
 }
