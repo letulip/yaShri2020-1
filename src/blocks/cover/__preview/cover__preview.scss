@@ -1,4 +1,9 @@
 .cover__preview {
   height: 160px;
   border: 3px solid var(--default-border-color);
+  
+}
+
+.cover__preview .image {
+  background-image: url('img/image-placeholder-inverse.svg');
 }

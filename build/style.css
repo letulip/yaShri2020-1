@@ -26,7 +26,7 @@ body {
   --second-text-color: rgba(0, 0, 0, 0.6);
   --additional-text-color: rgba(0, 0, 0, 0.3);
   --link-color: #0077ff;
-  --image-placeholder: url('img/image-placeholder-inverse.svg');
+  --image-placeholder: url('img/image-placeholder-primary.svg');
   background-color: var(--default-block-color); }
 
 .theme_color_project-brand {
@@ -47,7 +47,7 @@ body {
   --second-text-color: rgba(255, 255, 255, 0.6);
   --additional-text-color: rgba(255, 255, 255, 0.3);
   --link-color: #0077ff;
-  --image-placeholder: url('img/image-placeholder-primary.svg');
+  --image-placeholder: url('img/image-placeholder-inverse.svg');
   background-color: var(--default-block-color); }
 
 .theme_color_project-warning {
@@ -921,7 +921,7 @@ body {
 
 .product__image {
   height: 160px;
-  background-color: var(--main-text-color); }
+  background-color: var(--default-block-color); }
 
 .theme_color_project-inverse .product__image {
   background-color: #ffffff;
@@ -1029,6 +1029,9 @@ body {
 .cover__preview {
   height: 160px;
   border: 3px solid var(--default-border-color); }
+
+.cover__preview .image {
+  background-image: url("img/image-placeholder-inverse.svg"); }
 
 .footer {
   -webkit-margin-before: 45px;
