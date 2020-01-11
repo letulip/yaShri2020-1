@@ -15,4 +15,6 @@ $warning-link-color: #ffffff;
   --second-text-color: #{$warning-second-text-color};
   --additional-text-color: #{$warning-additional-text-color};
   --link-color: #{$warning-link-color};
+  
+  background-color: var(--default-block-color);
 }

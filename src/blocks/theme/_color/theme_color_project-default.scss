@@ -17,4 +17,6 @@ $default-link-color: #0077ff;
   --link-color: #{$default-link-color};
 
   --image-placeholder: url('img/image-placeholder-inverse.svg');
+
+  background-color: var(--default-block-color);
 }
