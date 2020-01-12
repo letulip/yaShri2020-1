@@ -1,12 +1,12 @@
 {
   "name": "front-wizard",
   "version": "1.0.1",
-  "description": "",
+  "description": "Yandex SHRI 2020 task 1",
   "scripts": {
     "build": "gulp build",
     "start": "gulp serve"
   },
-  "author": "Vladimir Korshunov",
+  "author": "Igor Vladimirskiy",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "9.6.1",
